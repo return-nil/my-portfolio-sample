@@ -12,7 +12,7 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/my-portfolio-sample/favicon.ico' }
     ]
   },
   /*
@@ -23,6 +23,8 @@ export default {
   ** Global CSS
   */
   css: [
+		'reset-css',
+		'~/assets/scss/style.scss'
   ],
   /*
   ** Plugins to load before mounting the App
@@ -38,7 +40,13 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/style-resources',
   ],
+  styleResources: {
+    scss: [
+      '~/assets/scss/_variables.scss',
+    ]
+  },
   /*
   ** Build configuration
   */
@@ -46,7 +54,11 @@ export default {
     /*
     ** You can extend webpack config here
     */
+    publicPath: '/static/',
     extend (config, ctx) {
     }
+  },
+  router: {
+    base: '/my-portfolio-sample/'
   }
 }

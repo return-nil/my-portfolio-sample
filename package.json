@@ -8,10 +8,20 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "gh-pages -d dist -b master -m 'Update Site [ci skip]'"
   },
   "dependencies": {
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
     "nuxt": "^2.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.0.0",
+    "gh-pages": "^2.1.1",
+    "node-sass": "^4.13.0",
+    "push-dir": "^0.4.1",
+    "reset-css": "^5.0.1",
+    "sass-loader": "^8.0.0"
+  }
 }
