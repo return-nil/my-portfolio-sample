@@ -91,7 +91,7 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <th scope="row">javascrpt</th>
+                      <th scope="row">JavaScript </th>
                       <td>3年</td>
                       <td><span class="rating"><p class="rate rate3"></p></span></td>
                     </tr>
@@ -152,7 +152,7 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <th scope="row">aws(EC2、RDS等)</th>
+                      <th scope="row">AWS(EC2、RDS等)</th>
                       <td>1年</td>
                       <td><span class="rating"><p class="rate rate3"></p></span></td>
                     </tr>
