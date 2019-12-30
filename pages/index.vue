@@ -189,6 +189,11 @@
                       <td>2年</td>
                       <td><span class="rating"><p class="rate rate2"></p></span></td>
                     </tr>
+                    <tr>
+                      <th scope="row">RSpec</th>
+                      <td>3年</td>
+                      <td><span class="rating"><p class="rate rate4"></p></span></td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
