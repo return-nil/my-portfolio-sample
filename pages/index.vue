@@ -103,7 +103,7 @@
                     <tr>
                       <th scope="row">Vue.js</th>
                       <td >半年</th>
-                      <td><span class="rating"><p class="rate rate1"></p></span></td>
+                      <td><span class="rating"><p class="rate rate2"></p></span></td>
                     </tr>
                   </tbody>
                 </table>
@@ -188,6 +188,11 @@
                       <th scope="row">CircleCI</th>
                       <td>2年</td>
                       <td><span class="rating"><p class="rate rate2"></p></span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RSpec</th>
+                      <td>3年</td>
+                      <td><span class="rating"><p class="rate rate4"></p></span></td>
                     </tr>
                   </tbody>
                 </table>
