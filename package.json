@@ -14,7 +14,8 @@
   "dependencies": {
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "vue-analytics": "^5.20.2"
   },
   "devDependencies": {
     "@nuxtjs/style-resources": "^1.0.0",
